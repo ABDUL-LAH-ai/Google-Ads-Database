@@ -32,5 +32,3 @@ CampaignID **INT**<br>
 AdTitle **VARCHAR**<br>
 TargetURL **VARCHAR**<br>
 Impression **SMALLINT**<br>
-TargetURL
-Impressions
