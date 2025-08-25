@@ -8,3 +8,13 @@ Google is a multinational technology company offering online advertising service
 
 
   
+## Main Entities in the table
+Entities are tables or real world objects that are meant to store information in the database. They are fundamental component of an Entity Relationship Diagram(ERD).
+
+# Advertiser
+This is the table that stores the advertisers' information. The attributes are as follows:<br>
+AdvertiserID **INT**-<br>
+AdvertiserName VARCHAR<br>
+ContactPerson VARCHAR<br>
+ContactEmail VARCHAR<br>
+
