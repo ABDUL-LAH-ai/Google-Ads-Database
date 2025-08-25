@@ -24,5 +24,13 @@ CampaignID **INT**<br>
 AdvertiserID **INT**<br>
 CampaignName **VARCHAR**<br>
 StartDate **DATE**<br>
-Budget **SMALLINT**<br>
 
+## Advertisement
+This is the table that stores information from the advertisement. The attributes and data types are as follows:<br>
+AdID **INT**<br>
+CampaignID **INT**<br>
+AdTitle **VARCHAR**<br>
+TargetURL **VARCHAR**<br>
+Impression **SMALLINT**<br>
+TargetURL
+Impressions
