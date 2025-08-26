@@ -60,4 +60,4 @@ The Entity Relationship Diagram shoes the collection of objects within a databas
 constraint avd the relationships between the entities. I modelled this using the ERD tools by defining the table and specifying the relationships between the tables using
 pre-existing columns as foriegn keys.
 
-![Google Database Entity Relationship Diagram](erd googlr.png)
+![Google Database Entity Relationship Diagram](erd.png)
