@@ -121,3 +121,23 @@ VALUES
 (11, 11, 'Elevate Your Space: Home Decor Inspiration', 'https://www.gemscommunications.com/home-decor', 20000 ),
 (12, 12, 'Your Active Lifestyle, Elevated', 'https://www.wetherheads.com/active-lifestyle', 5000 ),
 (13, 13, 'Luxury Redefined: Indulge Yourself', 'https://www.adhubbing.com/luxury-goods', 10000);```
+
+## Keyword
+
+```Sql
+INSERT INTO Keyword (KeywordID, ADid, KeywordText, BidAmount, QualityScore)
+VALUES
+(1, 1, 'holiday gifts', 30.00, 8.5),
+(2, 2, 'christmas presents', 25.00, 7.8),
+(3, 3, 'tech gadgets', 40.00, 9.2),
+(4, 4, 'latest gadgets', 35.00, 8.5),
+(5, 5, 'new arrivals', 30.00, 8.0),
+(6, 6, 'fashion trends', 25.00, 7.5),
+(7, 7, 'summer sale', 45.00, 9.0),
+(8, 8, 'beachwear', 38.00, 8.2),
+(9, 9, 'flash deals', 40.00, 9.5),
+(10, 10, 'limited time offers', 35.00, 8.8),
+(11, 11, 'beauty products', 25.00, 7.8),
+(12, 12, 'skincare', 20.00, 7.5),
+(13, 13, 'tech innovation', 45.00, 9.2);```
+
