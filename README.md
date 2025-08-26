@@ -81,7 +81,10 @@ VALUES
 (10, 'Gems Communications Ltd', 'Yakubu Danladi', 'yakubudanladi@gmail.com', '‪+234 (0)70 4735 0003‬'),
 (11, 'Wetherheads, Advertising Group', 'Amara Umeh', 'amaraumeh@gmail.com', '‪+234 (0)70 6183 9071‬'),
 (12, 'Adhubbing', 'Abdullahi Musa', 'abdullahimusa@yahoo.com', '‪+234 (0)90 2726 9756‬'),
-(13, 'Ellae Creative', 'Esther Ogunleye', 'estherogunleye@gmail.com', '‪+234 (0)70 4735 0004‬'); ```
+(13, 'Ellae Creative', 'Esther Ogunleye', 'estherogunleye@gmail.com', '‪+234 (0)70 4735 0004‬'); 
+describe advertiser;
+```
+
 
 ## Campaign Table
 
@@ -101,7 +104,9 @@ VALUES
 (10, 10, 'Power Up Your Performance', '2024-12-10', 950000),
 (11, 11, 'Elevate Your Space', '2025-01-21', 1000000),
 (12, 12, 'Your Active Lifestyle, Elevated', '2025-02-12', 750000),
-(13, 13, 'Luxury Redefined', '2025-03-21', 1200000);```
+(13, 13, 'Luxury Redefined', '2025-03-21', 1200000);
+select * from campaign;
+```
 
 ## Advertisement
 
@@ -120,8 +125,9 @@ VALUES
 (10, 10, 'Power Up Your Performance: Fitness Gear', 'https://www.odichisolutions.com/fitness-gear', 12000),
 (11, 11, 'Elevate Your Space: Home Decor Inspiration', 'https://www.gemscommunications.com/home-decor', 20000 ),
 (12, 12, 'Your Active Lifestyle, Elevated', 'https://www.wetherheads.com/active-lifestyle', 5000 ),
-(13, 13, 'Luxury Redefined: Indulge Yourself', 'https://www.adhubbing.com/luxury-goods', 10000);```
-
+(13, 13, 'Luxury Redefined: Indulge Yourself', 'https://www.adhubbing.com/luxury-goods', 10000);
+select * from advertisement;
+```
 ## Keyword
 
 ```Sql
@@ -139,7 +145,9 @@ VALUES
 (10, 10, 'limited time offers', 35.00, 8.8),
 (11, 11, 'beauty products', 25.00, 7.8),
 (12, 12, 'skincare', 20.00, 7.5),
-(13, 13, 'tech innovation', 45.00, 9.2);```
+(13, 13, 'tech innovation', 45.00, 9.2);
+select * from keyword;
+```
 
 ## Performance
 
@@ -158,4 +166,6 @@ VALUES
 (10, 10, '2023-11-10', 120, 11),
 (11, 11, '2023-11-11', 200, 16),
 (12, 12, '2023-11-12', 50, 4),
-(13, 13, '2023-11-13', 100, 9);```
+(13, 13, '2023-11-13', 100, 9);
+select * from performance;
+```
