@@ -32,3 +32,19 @@ CampaignID **INT**<br>
 AdTitle **VARCHAR**<br>
 TargetURL **VARCHAR**<br>
 Impression **SMALLINT**<br>
+
+## Keyword
+This is the table that stores information from keyword. The attributes and data types are as follows:<br>
+KeywordID **INT**<br>
+AdID **INT**<br>
+KeywordText **TEXT**<br>
+BidAmount **SMALLINT**<br>
+QualityScore **SMALLINT**<br>
+
+## Performance
+This is the table that stores information from performance.  The attributes and data types are as follows:<br>
+PerformanceID **INT**<br>
+AdID **INT**<br>
+Date **DATE**<br>
+Clicks **SMALLINT**<br>
+Conversions **SMALLINT**<br>
