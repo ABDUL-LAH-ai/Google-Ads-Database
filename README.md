@@ -203,4 +203,19 @@ LIMIT 5;
 ```
 ![Top Performing Advertisers](question2.PNG)
 
-**INSIGHT**: It can be observed that 'Super Star Producyion Limited' led the pack when it comes to the top performing advertiser
+**INSIGHT**: It can be observed that 'Super Star Producyion Limited' led the pack when it comes to the top performing advertiser.
+
+## 3. Top Performing Campaigns
+
+```Sql
+select campaign.campaignid,
+ campaign.campaignname, 
+ sum(advertisement.impressions) as total_impressions
+ from campaign
+ join advertisement 
+ on campaign.campaignid = advertisement.campaignid 
+ group by campaign.campaignid, campaign.campaignname 
+ order by total_impressions
+ desc limit 5;
+```
+![Top performing Campaign](
