@@ -179,8 +179,28 @@ from advertisement join performance on advertisement.adid = performance.adid gro
 ## Results
 ![Top 5 performing advertisement](question1.PNG)
 
-INSIGHT: It can be observed above that 'Flash sale Alert:Limited Time Offers' had the highest conversion rate in terms of top performing 
+**INSIGHT**: It can be observed above that 'Flash sale Alert:Limited Time Offers' had the highest conversion rate in terms of top performing 
 advertisements(18), followed by 'Elevate your Space:Home Decor Inspiration '(16). It can also be gleamed that the top performing markets include fitness, consumer tech products, interior decor.
 
-## 2. Top Performing AZdvertisers
+## 2. Top Performing Advertisers
+```Sql
+SELECT 
+    advertiser.Advertiserid,
+    advertiser.AdvertiserName,
+    advertiser.ContactPerson,
+    advertiser.ContactEmail,
+    SUM(performance.Conversations) AS total_conversions
+FROM Advertiser 
+JOIN Campaign 
+    ON advertiser.Advertiserid = campaign.Advertiserid
+JOIN Advertisement 
+    ON campaign.Campaignid = advertisement.Campaignid
+JOIN Performance 
+    ON advertisement.Adid = performance.Adid
+GROUP BY advertiser.Advertiserid, advertiser.AdvertiserName, advertiser.ContactPerson, advertiser.ContactEmail
+ORDER BY total_conversions DESC
+LIMIT 5;
+```
 ![Top Performing Advertisers](question2.PNG)
+
+**INSIGHT**: It can be observed that 'Super Star Producyion Limited' led the pack when it comes to the top performing advertiser
