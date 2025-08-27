@@ -218,4 +218,4 @@ select campaign.campaignid,
  order by total_impressions
  desc limit 5;
 ```
-![Top performing Campaign](
+![Top performing Campaign](question4.PNG)
