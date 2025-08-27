@@ -218,4 +218,6 @@ select campaign.campaignid,
  order by total_impressions
  desc limit 5;
 ```
+**INSIGHT**: It can beb observed that 'Elevate Your Space' led the pack when it comes to the top performing campaign.
+
 ![Top performing Campaign](question4.PNG)
