@@ -177,4 +177,3 @@ SELECT Advertisement.adid, advertisement.adtiltle, sum(Clicks) as Total_clicks,s
 from advertisement join performance on advertisement.adid = performance.adid group by advertisement.adid order by total_conversion desc limit 5;
 ```
 ## Results
-![Top performing advertisement](question one.PNG)
