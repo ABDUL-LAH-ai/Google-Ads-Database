@@ -183,4 +183,4 @@ INSIGHT: It can be observed above that 'Flash sale Alert:Limited Time Offers' ha
 advertisements(18), followed by 'Elevate your Space:Home Decor Inspiration '(16). It can also be gleamed that the top performing markets include fitness, consumer tech products, interior decor.
 
 ## 2. Top Performing AZdvertisers
-![Top Performing Advertisers](
+![Top Performing Advertisers](question2.PNG)
