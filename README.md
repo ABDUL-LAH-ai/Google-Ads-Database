@@ -169,3 +169,10 @@ VALUES
 (13, 13, '2023-11-13', 100, 9);
 select * from performance;
 ```
+## Queries suppoting the business objectives
+
+## Top 5 performing advertisement
+```Sql
+SELECT Advertisement.adid, advertisement.adtiltle, sum(Clicks) as Total_clicks,sum(Conversations) as Total_conversion
+from advertisement join performance on advertisement.adid = performance.adid group by advertisement.adid order by total_conversion desc limit 5;
+```
